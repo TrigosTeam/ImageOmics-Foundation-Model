@@ -1,2 +1,5 @@
-tcia_utils==3.2.1
-
+tcia-utils
+pandas
+matplotlib
+numpy
+matplotlib-venn
