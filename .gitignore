@@ -8,3 +8,8 @@
 *.tif
 *.webp
 *.svg
+
+
+*.pkl
+
+*.xlsx
