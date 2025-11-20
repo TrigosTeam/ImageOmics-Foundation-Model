@@ -24,10 +24,10 @@ import time
 from tqdm import tqdm
 
 # --- Configuration ---
-INPUT_FILE = "TCIA_unique_patientIDs.xlsx"
-SUMMARY_FILE = "gdc_metadata_summary.xlsx"
+INPUT_FILE = "patientIDs_idc_api.xlsx"
+SUMMARY_FILE = "summary_metadata_from_gcd_for_patientIDs_from_idc_api.xlsx"
 GDC_API_URL = "https://api.gdc.cancer.gov/files"
-OUTPUT_DIR = Path("gdc_metadata_files")
+OUTPUT_DIR = Path("metadata_from_gcd_for_patientIDs_from_idc_api")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 # --- Load Patient IDs ---
