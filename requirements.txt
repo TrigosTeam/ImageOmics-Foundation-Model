@@ -5,3 +5,5 @@ numpy
 matplotlib-venn
 tqdm
 requests
+pydicom
+idc-index
